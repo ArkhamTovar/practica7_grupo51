@@ -1,0 +1,71 @@
+/* Selectorr universal */
+
+
+/* colorea todo el texto que encuentre en la pagina */
+/* *{
+    color: blue; 
+} */
+
+/* 
+*{
+    padding: 0%;
+    margin: 0;
+} */
+
+/* Selector de tipo */
+/* main{
+    border: 2px dotted red;
+} */
+
+/* #parrafo1{
+    border-bottom: 5px solid blue;
+}
+ */
+
+ /* selector de clase */
+/*  .titulo{
+     border: 1px solid black;
+    box-shadow: 10px 5px 7px blue;
+ } */
+
+
+ /* Selector de clase de un tag en particular */
+/*  h3.titulo{
+     font-size: 100px;
+ } */
+
+ /* Selector por atributo. No importa el valor que tenga el atributo */
+
+/*  p[lang="mx"]{
+     background-color: darkolivegreen;
+ } */
+
+ /* Selector por atributo buscando un texto al final */
+ /* a[href$="mx"]{
+     background-color: darkgoldenrod;
+ }
+
+ a[href^="ftp"]{
+    background-color:wheat;
+}
+
+a[href*="casa"]{
+    font-size: 45px;
+} */
+
+
+/* Selectores de lista */
+
+
+
+
+/* Selector de decendientes */
+/* main, p{
+    border: 3px solid red;
+}
+ */
+
+/* Selector hijo directo */
+main > p{
+    border: 8px solid blue;
+}
